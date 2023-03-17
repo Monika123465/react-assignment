@@ -1,0 +1,46 @@
+
+*{
+  margin: 0;
+  padding: 0;
+ 
+ }
+ .movieapi{
+     width: 80%;
+     margin: auto;
+ }
+ input{
+     width: 600px;
+     height: 40px;
+     display: block;
+     border: none;
+     margin-left:450px;
+     margin-top: 50px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     border-radius: 5px;
+ }
+ .product{
+       width: 90%;
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     
+     margin: auto;
+     margin-top: 40px;
+     gap: 40px;
+ }
+ .product img{
+     width:100%;
+     border-top-left-radius: 25px;
+     border-top-right-radius: 25px;
+ }
+ .product-data{
+ 
+ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ margin-top: 20px;
+ border-top-left-radius: 25px;
+ border-top-right-radius: 25px;
+ 
+ }
+ .movie{
+     margin-bottom: 40px;
+     margin-left:8px;
+ }
